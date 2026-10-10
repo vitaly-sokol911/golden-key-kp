@@ -1,3 +1,29 @@
 # Пример работы для портфолио: в поиск не отдаём.
+# Но ссылку отправляют в мессенджерах — ботам превью доступ разрешён,
+# иначе карточка ссылки остаётся пустой.
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: vkShare
+Allow: /
+
+User-agent: Slackbot-LinkExpanding
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
 User-agent: *
 Disallow: /
